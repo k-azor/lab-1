@@ -1,11 +1,8 @@
-# Lab-1 Git Repository Seed
-Kenneth Azortibah
-This file is the template for the first lab in Ashesi Web Development 2020.
+# Lab-1 Ashesi Personal Blog?
 
-## Contents
+What was once just an example repository, this is now probably going to be a personal blog.
 
-This repository contains a single file, a script for gathering the basic configuration of the user from bash.
+Primary purpose is to get me well acquainted with git, github, and all the intricacies of web development.
+Secondary purpose; I might get a cool website out of this.
 
-## Using the file
-
-Please refer to your lab instructions for definitive directions. In general, clone this repository to a new repository in your user space.
+There's an index.html in this repo, so keep an eye out for it.
