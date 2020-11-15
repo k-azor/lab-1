@@ -11,26 +11,41 @@
 <body>
     <script src="script.js"></script>
 
-    <h1>Kenneth Azortibah's Portfolio</h1>
+    <header id="main-header">
+        <div class="container">
+            <h1>Kenneth Azortibah's Portfolio</h1>
+        </div>
+    </header>
 
-    <div class="topnav" id="theTopnav">
-        <a class="active" href="index.html" title="You're already here!">Home</a>
-        <a href="skills.html" title="Stuff I can do!">Skills</a>
-        <a href="coursework.html" title="CS courses I've done!">CS Coursework</a>
-        <a href="exp.html" title="Work experience!">Experience</a>
-        <a href="projects.html" title="Projects I'm working on!">Projects</a>
-        <a href="interests.html" title="Other things I do!">Interests & Activities</a>
+    <nav class="topnav" id="theTopnav">
+        <div class="container">
+            <a class="active" href="index.html" title="You're already here!">Home</a>
+            <a href="skills.html" title="Stuff I can do!">Skills</a>
+            <a href="coursework.html" title="CS courses I've done!">CS Coursework</a>
+            <a href="exp.html" title="Work experience!">Experience</a>
+            <a href="projects.html" title="Projects I'm working on!">Projects</a>
+            <a href="interests.html" title="Other things I do!">Interests & Activities</a>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>  
+    </nav>
 
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+    <div class="container">
+        <section id="showcase">
+            <h1>Be the change you wish to see in the world.</h1>
+        </section>
     </div>
 
-    <p>Hey! I am a Computer Science student of Ashesi University, graduation year 2022! <br> 
-        I'm interested in music- all types of music. Really. Music is amazing. <br> 
-        I'm thinking of becoming a musician myself- although sometimes, I worry my musical ideas are a bit too radical. <br> Only one way to find out, right?</p> 
-    <p>I'm from Ghana, West Africa. We've got <em>really</em> good food!
-    </p>
+    <div class="container">
+        <section id="main">
+            <h1>Hey, welcome</h1>
+            <p>I'm Kenneth Azortibah, a Computer Science junior in Ashesi University.
+            <br>
+            I'm also a musician, illustrator, writer, and animator. I just like to create stuff.</p>
+        </section>
+    </div>
 
     <p>I'm a bit behind in my WebTech class, but I've still learnt quite a lot;</p>
     <ul>
@@ -41,5 +56,9 @@
         <li>CSS</li>
         <li>Git, and GitHub</li>
     </ul>
+
+    <footer id="main-footer">
+        <p>Copyright &copy; 2020, <a href="https://www.linkedin.com/in/kenneth-azor/" target="_blank">Kenneth Azortibah</a></p>
+    </footer>
 </body>
 </html>

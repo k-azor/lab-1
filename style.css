@@ -1,8 +1,20 @@
 body{
-    background-color: lightgray;
-    color: #555;
+    background-color: #f5d6ba;
+    color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #f49d6e;
 }
 
 .topnav{
@@ -13,25 +25,41 @@ body{
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    color: #fff;
+    padding-right: 15px;
     text-decoration: none;
     font-size: 17px;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #292929;
+    color: #f49d6e;
 }
 
 .topnav a.active {
-    background-color: orangered;
-    color: white;
+    background-color: #f49d6e;
+    color: #fff;
 }
 
 .topnav .icon {
     display: none;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#main-footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-footer a:hover{
+    color: #f49d6e;
 }
 
 @media screen and (max-width: 600px) {
